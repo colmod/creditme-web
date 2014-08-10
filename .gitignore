@@ -44,4 +44,9 @@ Icon
 target
 *.sbt
 
+# Project Files
+*.pem
+*.ppk
+
+
 
