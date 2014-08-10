@@ -11,7 +11,7 @@ var users = require('./routes/users');
 var app = express();
 
 // view engine setup
-app.set('port', '80');
+app.set('port', '8080');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hjs');
 
@@ -61,6 +61,6 @@ app.use(function(err, req, res, next) {
 module.exports = app;
 
 
-var server = app.listen(80, function() {
+var server = app.listen(8080, function() {
     console.log('CreditMe on Node.js/Express listening on port %d', server.address().port);
 });
